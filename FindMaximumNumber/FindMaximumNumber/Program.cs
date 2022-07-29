@@ -9,6 +9,9 @@
             MaximumNumberCheck maximumNumberCheck = new MaximumNumberCheck();
             int integerOutput = maximumNumberCheck.MaximumIntegerNumber(99, 110, 150);
             Console.WriteLine(integerOutput);
+
+            double doubleOutput = maximumNumberCheck.MaximumFloatNumber(111.1567, 234.5466, 668.9890);
+            Console.WriteLine(doubleOutput);
         }
     }
 }
